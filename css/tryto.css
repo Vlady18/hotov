@@ -1,0 +1,100 @@
+.tryto{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    transition: 1s;
+    position: relative;
+}
+.kvartiry{
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/Y_C3.jpg);
+    background-size: 100% 100%;
+    transition: 1s;
+    background-color: #1b3832;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.komercheskiye{
+    width: 50%;
+    height: 100%;
+    transition: 1s;
+    background-image: url(../img/home_house.png);
+    background-size: 100% 100%;
+    opacity: 0.8;
+    background-color: #1b3832;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.kvartiry:hover{
+    opacity: 1;
+}
+.komercheskiye:hover{
+    opacity: 1;
+}
+.prices{
+    display: none;
+    height: 100%;
+}
+.half{
+    background-color: white;
+}
+.tryto h6{
+    color: white;
+    font-family: "opensans";
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 150px 0;
+    white-space: nowrap;
+}
+.underline_kvar::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: -12px;
+    background-color: #ffbe00;
+}
+ .absolute_podrobnee {
+     z-index: 2;
+  position: absolute;
+  width: 403px;
+  height: 195px;
+  background-color: #ffc400;
+  left: 50%;
+  top: -60px;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+cursor: pointer;}
+ .absolute_podrobnee p {
+    font-family: "opensans";
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px; }
+ .absolute_podrobnee span {
+    font-family: "opensans";
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px; }
+ .absolute_podrobnee .double_line {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px; }
+ .absolute_podrobnee .double_line .line {
+        width: 60px;
+        height: 0px;
+        border: 3px solid white; }
+ .absolute_podrobnee .double_line img {
+        margin: 0px 17px; }
